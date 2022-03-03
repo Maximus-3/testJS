@@ -9,6 +9,8 @@ let arr = ['plum.png','orange.jpg','apple.bmp'];
 
 console.log(arr[0]);
 
+console.log(pi);
+
 //alert("Hello World!");
 
 // let answer = confirm("Are you here?");
