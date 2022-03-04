@@ -1,18 +1,27 @@
-'use strict';
+ let num = 50;
 
-var left = 1;
-let second = 2;
-const pi = 3.14;
-console.log(left);
+// if(num <49) {
+//     console.log("Неверно!")
+// } else if(num >100) {
+//     console.log("Много!")
+// } else {
+//     console.log("Верно!")
+// }
 
-let arr = ['plum.png','orange.jpg','apple.bmp'];
-
-console.log(arr[0]);
-
-console.log(pi);
-
-//alert("Hello World!");
-
-// let answer = confirm("Are you here?");
-
-// console.log(answer);
+switch(num) {
+    case num < 49:
+        console.log("Неверно!");
+        break;
+    case num > 100:
+        console.log("Много!");
+        break;
+    case num > 80:
+        console.log("Много!");
+        break;
+    case 50:
+        console.log("Верно!");
+        break;
+    default:
+        console.log("Что то пошло не так!");
+        break;
+}
